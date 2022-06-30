@@ -1,0 +1,59 @@
+/* GLOBAL----------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 1.2em;
+}
+
+li {
+  line-height: 1.5em;
+}
+
+ul li {
+  font-size: 0.8em;
+}
+
+ul ul li {
+  font-size: 0.8em;
+}
+
+ul ul ul li {
+  font-size: 0.8em;
+}
+
+section {
+  border: 0.2rem solid black;
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 1rem 0;
+}
+
+/* List element style in detail----------- */
+.dogs li::before {
+  content: "🐶 ";
+}
+
+.cats li::before {
+  content: "🐱 ";
+}
+
+.parrots li::before {
+  content: "🦜 ";
+}
+
+.snakes li::before {
+  content: "🐍 ";
+}
+
+.lizzards li::before {
+  content: "🦎 ";
+}
